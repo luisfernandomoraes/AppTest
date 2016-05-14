@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using ZXing.Net.Mobile.Forms;
+using Rg.Plugins.Popup.Services;
 
 namespace AppTest
 {
@@ -37,7 +38,8 @@ namespace AppTest
         {
             var page = new MyPopupPage();
 
-            await Navigation.PushPopupAsync(page);
+            //await Navigation.PushPopupAsync(page);
+            await PopupNavigation.PushAsync(page);
 
         }
     }
