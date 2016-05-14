@@ -17,9 +17,10 @@ namespace AppTest
                 Content = new StackLayout
                 {
                     VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            XAlign = TextAlignment.Center,
+                    Children =
+                    {
+                        new Label
+                        {
                             Text = "Welcome to Xamarin Forms!"
                         }
                     }
